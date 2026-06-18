@@ -1,0 +1,17 @@
+{
+  "name": "lc-list",
+  "version": "0.1.0",
+  "description": "Create LeetCode CN problem lists from Day-task text.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "lc-list": "./create-list.js"
+  },
+  "scripts": {
+    "generate": "node create-list.js",
+    "check": "node create-list.js \"Day 24二叉树100 相同树、101 对称树、102 层序遍历、104 最大深度、226 翻转树、543 直径、98 验证 BST、236 LCA、105、106、110、112、114、124、199、230、297、437、662\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
